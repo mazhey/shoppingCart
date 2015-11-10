@@ -110,7 +110,7 @@ public class Lineitem implements Serializable {
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
-	
+	//added
 	public Shoppinguser getShoppinguser(){
 		return this.shoppinguser;
 	}
