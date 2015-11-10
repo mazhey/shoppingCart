@@ -43,7 +43,7 @@ public class Lineitem implements Serializable {
 
 	@Column(name="USER_ID")
 	private int userId;
-
+        private Shoppinguser      //add user
 	public Lineitem() {
 	}
 
