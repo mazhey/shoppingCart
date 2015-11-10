@@ -43,7 +43,7 @@ public class Lineitem implements Serializable {
 
 	@Column(name="USER_ID")
 	private int userId;
-        private Shoppinguser      //add user
+        private Shoppinguser shoppinguser;   //add user
 	public Lineitem() {
 	}
 
@@ -110,5 +110,13 @@ public class Lineitem implements Serializable {
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
+	
+	public Shoppinguser getShoppinguser(){
+		return this.shoppinguser;
+	}
+	public Shoppinguser setShoppinguser(){
+		this.shoppinguser=shoppinguser;
+	}
+	
 
 }
